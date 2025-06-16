@@ -1,0 +1,12 @@
+.vs/
+.vscode
+
+**/build/
+
+# Model files
+*.data*
+*.index
+*.pb
+
+# Fortran modules
+**/*.mod
