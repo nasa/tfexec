@@ -10,6 +10,7 @@ This library gives an easy interface for loading and executing deep learning mod
 - Install the Tensorflow C-Language Bindings: https://www.tensorflow.org/install/lang_c. If doing this on Windows, modify the windows PATH to include the directory. If this is not possible copy the contents of the `lib` directory to your build directory to appropriately link it.
 
 ## Building
+
 ### Windows
 1. Make a `build` directory in the project's root directory.
 2. Open CMake and specify the build directory and source directories.
