@@ -5,6 +5,7 @@ include(FetchContent)
 # Fetch the external library for Tensorflow C-Language Bindings
 if (WIN32)
   set(tensorflowurl "http://storage.googleapis.com/tensorflow/libtensorflow/libtensorflow-gpu-windows-x86_64-2.3.0.zip")
+  #set(tensorflowurl "https://storage.googleapis.com/tensorflow/versions/2.18.1/libtensorflow-cpu-windows-x86_64.zip")
 else()
   set(tensorflowurl "https://storage.googleapis.com/tensorflow/libtensorflow/libtensorflow-gpu-linux-x86_64-2.3.0.tar.gz")
 endif()

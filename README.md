@@ -7,7 +7,7 @@ This library gives an easy interface for loading and executing deep learning mod
 - Windows: Visual Studio
 - Linux: g/g++ compiler
 - Tensorflow installation: https://www.tensorflow.org/install/gpu
-- Install the Tensorflow C-Language Bindings: https://www.tensorflow.org/install/lang_c. If doing this on Windows, modify the windows PATH to include the directory. If this is not possible copy the contents of the `lib` directory to your build directory to appropriately link it.
+- Install the Tensorflow C-Language Bindings: https://www.tensorflow.org/install/lang_c. If doing this on Windows, modify the windows PATH to include the directory. If this is not possible copy the contents of the `lib` directory to your build directory to appropriately link it. The library version may need to be edited in the CMakeLists.txt file depending on which Tensorflow version was used to train your model.
 
 ## Building
 
